@@ -1,0 +1,110 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) { 
+	.container {
+		max-width: 1230px;
+	}
+}
+
+@media (max-width: 1199px) { 
+	
+}
+
+@media (max-width: 991px) {
+
+	.hamburger-menu {
+	    display: block;
+	    top: 20px;
+	    font-size: 25px;
+	}
+
+	#menu {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+		padding: 175px 0 0 0;
+		background: #000;
+		z-index: -1;
+		transform: translateX(-100%);
+		transition: .3s;
+		text-align: center;
+	}
+
+	#menu.open {
+		transform: translateX(0);
+	}
+
+	.get-btn {
+	    margin-right: 40px;
+	}
+
+	#menu li {
+		display: block;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+
+	#menu li a {
+		line-height: 45px;
+		padding: 0;
+		width: 100%;
+		font-size: 28px;
+	}
+
+	
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	.home-box .get-btn {
+	    margin: 0 15px;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
+	header {
+		height: 90px;
+	}
+	
+	.get-btn {
+	    margin-right: 30px;
+	    margin-left: 0;
+	    padding: 12px 20px;
+	    font-size: 14px;
+	}
+
+	.hamburger-menu {
+	    top: 15px;
+	}
+
+	#menu li a {
+	    line-height: 30px;
+	    font-size: 17px;
+	}
+
+	.home-box h2 {
+	    font-size: 31px;
+	    line-height: 125%;
+	}
+
+	.home-box p {
+	    font-size: 16px;
+	    line-height: 140%;
+	}
+
+	.home-box p br {
+		display: none;
+	}
+
+}
+
+
